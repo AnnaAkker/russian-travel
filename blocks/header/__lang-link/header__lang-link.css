@@ -5,8 +5,15 @@
     color: #fff;
     text-decoration: none;
     padding-left: 18px;
-    transition: .2s ease-in-out;
+    transition: .4s ease-in-out;
 }
 .header__lang-link:hover {
-    opacity: 6;
+    opacity: 8;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
