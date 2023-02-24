@@ -22,9 +22,11 @@
   
   @media screen and (max-width: 768px) {
     .place {
-      grid-column-gap: 25px;
-      grid-row-gap: 57px;
-      padding-top: 0px;
+      grid-template-columns: 340px, 1fr;
+      grid-template-rows: repeat(2, auto);
+      grid-column-gap: 28px;
+      grid-row-gap: 48px;
+    
     }
   }
   
