@@ -25,8 +25,8 @@
       grid-template-columns: 340px, 1fr;
       grid-template-rows: repeat(2, auto);
       grid-column-gap: 28px;
-      grid-row-gap: 48px;
-    
+      grid-row-gap: 49px; 
+      padding-top: 0px;
     }
   }
   
