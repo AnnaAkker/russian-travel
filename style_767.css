@@ -4,7 +4,7 @@
 }
 
 .page {
-    max-width: 1280px;
+    max-width: 768px;
     margin: 0 auto;
     background-color: #2A2C2F;
     color: #fff;
@@ -19,17 +19,23 @@
 }
 
 .content {
-    max-width: 1280px;
+    max-width: 768px;
   
 }
 
 .header {
-    max-width: 1184px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     padding: 28px 0 56px;
+    position: absolute;
+    width: 720px;
+    height: 52px;
+    left: 24px;
+    /* top: 28px; */
+
 }
 
 .header__logo {
@@ -53,6 +59,10 @@
     list-style-type: none;
 }
 
+#lang-ru {
+    text-decoration: underline;
+}
+
 .header__lang-link {
     font-size: 24px;
     font-weight: 400;
@@ -66,17 +76,13 @@
     opacity: 6;
 }
 
-#lang-ru {
-    text-decoration: underline;
-}
-
-
-
 .lead {
-    position: absolute;
-    width: 1280px;
-    top: 136px;
     align-items: center;
+    position: absolute;
+    width: 766px;
+    height: 862px;
+    left: 0px;
+    top: 128px;
 }
 
 
@@ -95,24 +101,21 @@
     line-height: 36px;
     text-align: center;
     max-width: 640px;
-    margin: 0 auto 64px;
+    margin: 0 auto;
 }
 
 .lead__image {
     position: absolute;
-    width: 984px;
-    height: 615px;
-    left: 148px;
-    /* top: 504px; */
+    
+    width: 765px;
+    height: 480px;
+    top: 360px;
 }
 
 .lead__caption {
 
     position: absolute;
-    
     height: 14px;
-    left: 148px;
-    top: 992px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -125,13 +128,19 @@
     text-transform: uppercase;
     
     color: #FFFFFF;
+    width: 160px;
+    height: 14px;
+    left: 24px;
+    top: 849px;
 }
 
 .intro {
     position: absolute;
+    width: 720px;
     height: 429px;
-    padding: 0px 147px;
-    top: 1233px;
+    left: 24px;
+    top: 1078px;
+
 }
 
 .intro__title {
@@ -146,7 +155,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 163%;
-    max-width: 690px;
+    
     margin: 40px 0px 33px 0;
     
     
@@ -167,23 +176,20 @@
 
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     gap: 16px;
     position: absolute;
-    width: 1184px;
-    height: 671px;
-    margin: 0 47px;
-    top: 1754px;
-    /* align-items: center; */
-}
+    width: 720px;
+    left: 24px;
+    top: 1595px;
+    }
 
 .photo-grid__item {
-    /* max-width: calc(100% / 4.1);
-    width: calc(100% / 4.1); */
-    width: 284px;
-    object-fit: contain;
-    /* height: 213px; */
-    /* margin: 4px; */
+    object-fit: cover;
+    width: 352px;
+    height: 264px;
+    left: 676px;
+    top: 1703px;
 }
 
 .places {
@@ -192,29 +198,49 @@
     margin: 0 auto;
     /* padding-top: 92px; */
     padding-bottom: 92px;
-    gap: 80px;
+    /* gap: 80px; */
 
     position: absolute;
-    width: 984px;
-    /* left: 148px; */
-    top: 2517px;
-    align-items: center;
-    padding: 0 147px;
+    width: 720px;
+    height: 2808px;
+    left: 24px;
+    top: 3347px;
 }
 
 .place {
     display: grid;
-    grid-template-columns: 460px 1fr;
-    grid-column-gap: 40px;
-    column-gap: 40px;
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+    width: 720px;
+    height: 581px;
+    left: 24px;
+    top: 3347px;
+}
+
+.place:nth-last-child(2) {
+    margin-bottom: 7px;
+}
+
+.place:nth-last-child(3) {
+    margin-bottom: px;
+}
+
+.place:nth-last-child(4) {
+    margin-bottom: 27px;
+}
+
+
+.place:nth-last-child(5) {
+    margin-bottom: 68px;
 }
 
 .place__title {
     font-family: 'Inter';
-    font-size: 72px;
+    font-size: 42px;
     font-weight: 900;
-    line-height: 76px;
+    line-height: 46px;
     margin:0 0 48px 0;
+    width: 330px;
 }
 
 .place__website {
@@ -247,9 +273,16 @@
     opacity: .4;
 }
 
+.place__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 352px;
+
+} 
+
 .place__paragraph {
     font-family: 'Inter';
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.63;
     margin: 0 0 25px 0;
@@ -262,121 +295,6 @@
 
 
 .place__image {
-    width: 100%;
+    width: 340px;
     grid-row: 2/6;
 }
-
-.cover {
-    max-width: 1184px;
-    margin: 0 auto 92px;
-    padding: 0 147px;
-}
-
-.cover__overlay {
-    width: 100%;
-    max-width: 1184px;
-    height: 740px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./images/cover-trains.jpg);
-    background-position: center;
-    background-size: cover;
-    text-decoration: none;
-    position: absolute;
-    /* left: 48px; */
-    top: 6001px;
-    
-}
-
-.cover__overlay::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #2A2C2F;
-    opacity: .2;
-    transition: .4s ease-in-out;
-    z-index: 1;
-}
-
-.cover__overlay:hover::before {
-    opacity: .8;
-}
-
-.cover__title {
-    font-family: 'Inter';
-    max-width: 560px;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 76px;
-    text-align: center;
-    color: #fff;
-    margin: 0 0 32px;
-    z-index: 2;
-    
-}
-
-.cover__subtitle {
-    font-family: 'Inter';
-    width: 360px;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 22px;
-    color: #fff;
-    margin: 0;
-    z-index: 2;
-}
-
-.footer {
-    max-width: 1184px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    position: absolute;
-    height: 18px;
-    /* left: 48px; */
-    top: 6833px;
-    align-items: center;
-}
-
-.footer__links {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.footer__link {
-    font-family: 'Inter';
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-    color: #fff;
-    text-decoration: none;
-    padding-right: 18px;
-    transition: .2s ease-in-out;
-}
-
-.footer__link:hover {
-    opacity: .5;
-}
-
-.footer__copyright {
-    font-family: 'Inter';
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    margin: 0;
-    position: absolute;
-    width: 186px;
-    height: 16px;
-    left: 1020px;
-}
-
