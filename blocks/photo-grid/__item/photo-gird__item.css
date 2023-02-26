@@ -1,4 +1,5 @@
-.photo-gird__item {
+.photo-grid__item {
     max-width: 100%;
-    object-fit: cover;
-}
+    width: 100%;
+    
+  }
