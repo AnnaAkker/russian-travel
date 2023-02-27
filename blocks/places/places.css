@@ -1,12 +1,16 @@
 .places {
-  margin: 95px auto 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
   max-width: 984px;
+  margin: 95px auto 88px;
 }
 
 
 @media screen and (max-width: 1024px) {
   .places {
     margin: 92px 48px 0;
+    row-gap: 35px;
   }
 }
 
