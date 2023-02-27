@@ -1,8 +1,10 @@
 .footer {
     max-width: 1184px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
     margin: 95px 0 24px 0;
 }
 

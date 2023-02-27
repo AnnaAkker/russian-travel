@@ -1,9 +1,11 @@
 .cover__subtitle {
     width: 360px;
+    
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
     line-height: 22px;
+    
+    text-align: center;
     color: #fff;
     margin: 0;
     z-index: 2;
