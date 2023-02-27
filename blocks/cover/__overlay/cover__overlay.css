@@ -30,3 +30,9 @@
     opacity: .8;
 }
 
+@media screen and (max-width: 1024px) {
+    .cover__overlay { 
+        min-height: 640px;
+        margin-top: 91px;
+    }
+}
