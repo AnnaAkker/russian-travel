@@ -23,7 +23,7 @@
     
 @media screen and (max-width: 768px) {
     .footer {
-      width: 720px;
+      max-width: 720px;
 
       flex-direction: row;
       align-items: flex-start;
@@ -34,7 +34,7 @@
       
     }
 }
-
+ 
 @media screen and (max-width: 320px) {
   .footer {
     width: 186px;
