@@ -9,7 +9,27 @@
 @media screen and (max-width: 768px) {
     .footer__copyright {
         text-align: right;
-        padding-top: 47px;
+        
     }
 }
 
+@media screen and (max-width: 762px) {
+    .footer__copyright {
+        margin: 30px 0 15px;
+        
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .footer__copyright {
+        margin: 150px 0 15px;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        margin: 45px 0 15px;
+        
+    }
+}

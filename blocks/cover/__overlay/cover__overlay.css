@@ -37,6 +37,13 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .cover__overlay {
+        min-height: 480px;
+        margin-top: 87px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cover__overlay {
         min-height: 480px;
@@ -44,10 +51,16 @@
     }
 }
 
+@media screen and (max-width: 662px) {
+    .cover__overlay {
+        min-height: 380px;
+        margin-top: 87px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__overlay {
         min-height: 200px;
-        /* width: 288px; */
         margin-top: 58px;
     }
 }

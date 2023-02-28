@@ -5,6 +5,13 @@
     list-style-type: none;
 }
 
+@media screen and (max-width: 530px) {
+    .footer__links {
+        flex-direction: column;
+        row-gap: 18px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__links {
         flex-direction: column;

@@ -13,6 +13,24 @@
     z-index: 2;
 }
 
+@media screen and (max-width: 662px) {
+    .cover__title {
+        width: 400px;
+        font-size: 52px;
+        line-height: 55px;
+        margin: 0 8px 16px 2px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .cover__title {
+        width: 300px;
+        font-size: 42px;
+        line-height: 45px;
+        margin: 0 8px 16px 2px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__title {
         width: 250px;

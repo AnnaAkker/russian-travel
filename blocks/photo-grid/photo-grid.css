@@ -39,6 +39,17 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .photo-grid {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    gap: 12px;
+
+    margin: 64px 26px 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .photo-grid {
     
