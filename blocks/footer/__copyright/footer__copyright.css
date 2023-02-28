@@ -9,5 +9,7 @@
 @media screen and (max-width: 768px) {
     .footer__copyright {
         text-align: right;
+        padding-top: 47px;
     }
 }
+

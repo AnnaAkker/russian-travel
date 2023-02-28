@@ -43,3 +43,11 @@
         margin-top: 87px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        min-height: 200px;
+        /* width: 288px; */
+        margin-top: 58px;
+    }
+}
