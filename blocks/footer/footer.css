@@ -24,28 +24,19 @@
 @media screen and (max-width: 900px) {
   .footer {
     max-width: 800px;
-
     flex-direction: row;
     align-items: flex-start;
-
-    
     margin-top: 50px;
     margin-left: 53px;
-    
   }
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-      max-width: 720px;
-
-      flex-direction: row;
-      align-items: flex-start;
-
-      
+      max-width: 740px;
       margin-top: 90px;
       margin-left: 23px;
-      
+      margin-right: 23px;
     }
 }
  
@@ -64,8 +55,8 @@
 
 @media screen and (max-width: 320px) {
   .footer {
-    width: 186px;
-    height: 310px;
+    max-width: 186px;
+    min-height: 310px;
     margin: 64px 16px 10px;
   }
 }
