@@ -30,14 +30,14 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__overlay { 
         min-height: 640px;
         margin-top: 91px;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1023px) {
     .cover__overlay {
         min-height: 480px;
         margin-top: 87px;
