@@ -21,19 +21,12 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .places {
-    margin: 94px 24px 0;
-    row-gap: 69px;
-  }
-}
-
 
 
 
 @media screen and (max-width: 320px) {
   .places {
     margin: 65px 0px;
-    row-gap: 74px;
+    row-gap: 48px;
   }
 }
