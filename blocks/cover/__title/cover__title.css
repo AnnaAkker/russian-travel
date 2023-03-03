@@ -13,11 +13,7 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 1279px) {
-    .cover__title {
-        margin: 5px 0 32px;
-    }
-}
+
 
 @media screen and (max-width: 767px) {
     .cover__title {

@@ -3,14 +3,13 @@
   flex-direction: column;
   gap: 80px;
   max-width: 984px;
-  margin: 95px auto 88px;
+  margin: 92px auto 88px;
 }
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1200px) {
   .places {
     margin: 92px 48px 0;
-    gap: 80px;
   }
 }
 

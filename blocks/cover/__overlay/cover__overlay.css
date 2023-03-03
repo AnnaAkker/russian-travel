@@ -21,7 +21,7 @@
     top: 0;
     left: 0;
     background-color: #2A2C2F;
-    opacity: .2;
+    opacity: .3;
     transition: .4s ease-in-out;
     z-index: 1;
 }
@@ -47,14 +47,14 @@
 @media screen and (max-width: 768px) {
     .cover__overlay {
         min-height: 480px;
-        margin-top: 87px;
+        
     }
 }
 
 @media screen and (max-width: 662px) {
     .cover__overlay {
         min-height: 380px;
-        margin-top: 87px;
+        
     }
 }
 
