@@ -3,14 +3,3 @@
  }
 
 
-@media screen and (max-width: 320px) {
-  .place__text {
-     max-width: 90%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-  .place__text {
-     max-width: 40%;
-    }
-}

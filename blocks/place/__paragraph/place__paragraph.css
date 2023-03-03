@@ -5,6 +5,7 @@
     line-height: 163%;
     margin: 0;
     padding-bottom: 26px;
+    outline: 1px solid red;
 }
 .place__paragraph:last-child{
     padding-bottom: 0;
@@ -15,6 +16,8 @@
         max-width: 456px;
     }
 }
+
+
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
@@ -24,10 +27,11 @@
 }
 
 
-
 @media screen and (max-width: 767px) {
     .place__paragraph {
         padding-right: 20px;
         padding-left: 16px;
     }
 }
+
+

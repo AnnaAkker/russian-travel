@@ -1,6 +1,6 @@
 .header {
   max-width: 1184px;
-
+  outline: 1px solid red;
   display: flex;
   justify-content: space-between;
 
@@ -28,3 +28,4 @@
     padding: 12px 16px 42px;
   }
 } 
+
